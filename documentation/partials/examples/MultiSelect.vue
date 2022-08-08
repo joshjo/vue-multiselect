@@ -12,6 +12,8 @@ div
     label="name",
     track-by="name",
     :preselect-first="true"
+    :autoslide="true"
+    :with-checkbox="true"
   )
     template(
       slot="selection"
